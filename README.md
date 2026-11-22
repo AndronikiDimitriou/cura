@@ -30,4 +30,8 @@ For questions, problems or suggestions, please use the [GitHub Issues page](http
 
 ---
 
-*Cura – version 2.2*
+## Licence
+
+Cura is proprietary software. All rights reserved.
+
+See the [LICENSE](LICENSE) file for the full licence terms.
