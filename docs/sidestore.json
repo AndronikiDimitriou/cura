@@ -1,3 +1,4 @@
+```json
 {
   "name": "Cura",
   "identifier": "io.github.andronikidimitriou.cura",
@@ -17,12 +18,13 @@
           "version": "2.2",
           "buildVersion": "202611221610",
           "date": "2026-11-22T15:13:30.146Z",
-          "downloadURL": "https://gh.ali360.cloudns.ch/AndronikiDimitriou/cura/releases/download/v2.2-20261122-1613/Cura.ipa",
+          "downloadURL": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.2-ios-public-20261122/Cura.ipa",
           "size": 35820635,
-          "localizedDescription": "Cura 2.2"
+          "localizedDescription": "Cura 2.2",
+          "news": []
         }
       ]
     }
-  ],
-  "news": []
+  ]
 }
+```
