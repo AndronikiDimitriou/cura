@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f5">
+  <meta name="description" content="Install Cura on Android or iPhone.">
+  <title>Install Cura</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.65;
+      color: #26332d;
+      background: #f5f7f5;
+    }
+    main {
+      max-width: 760px;
+      margin: 30px auto;
+      padding: 32px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px #0000000c;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    h2 {
+      margin-top: 38px;
+      padding-top: 24px;
+      border-top: 1px solid #e5eae6;
+    }
+    h3 { margin-top: 24px; }
+    p { color: #46554c; }
+    li { margin: 10px 0; }
+    a { color: #26734c; overflow-wrap: anywhere; }
+    .intro { font-size: 1.1rem; }
+    .note {
+      background: #edf6ef;
+      padding: 16px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    .download {
+      display: inline-block;
+      padding: 13px 22px;
+      margin: 12px 0;
+      background: #26734c;
+      color: white;
+      text-decoration: none;
+      border-radius: 9px;
+      font-weight: 650;
+    }
+    .download:hover { background: #1c593a; }
+    code {
+      overflow-wrap: anywhere;
+      background: #f0f2f0;
+      padding: 3px 6px;
+      border-radius: 4px;
+    }
+    .small { font-size: .9rem; color: #68756d; }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid #e5eae6;
+      padding-top: 20px;
+      font-size: .9rem;
+    }
+    @media(max-width: 520px) {
+      main { padding: 22px 18px; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <h1>Cura</h1>
+  <p class="intro">
+    Cura is a medicine-reminder and personal health app.
+    Everything you enter stays on your own phone.
+  </p>
+
+  <div class="note">
+    Choose your device below to install Cura.
+  </div>
+
+  <!-- ANDROID -->
+
+  <h2>Android</h2>
+  <p><strong>No computer needed. No 7-day expiry.</strong></p>
+
+  <a class="download"
+     href="https://github.com/AndronikiDimitriou/cura/releases/latest/download/Cura.apk">
+    Download Cura.apk
+  </a>
+
+  <ol>
+    <li>Open the download link on your Android phone.</li>
+    <li>Download the APK file.</li>
+    <li>Tap the downloaded Cura.apk file.</li>
+    <li>
+      If Android asks, allow "Install unknown apps"
+      for the app you opened it with (Chrome, Files, Gmail, etc.).
+    </li>
+    <li>Go back and tap Install.</li>
+    <li>Open Cura. Done!</li>
+  </ol>
+
+  <p class="small">
+    Android may display a security warning because Cura
+    is installed outside Google Play.
+  </p>
+
+  <!-- IPHONE -->
+
+  <h2>iPhone</h2>
+
+  <p>
+    Free installation using SideStore.
+    You need a computer for the initial setup.
+  </p>
+
+  <div class="note">
+    <strong>Important:</strong>
+    The initial installation requires a USB cable connecting
+    your iPhone to your computer. An internet connection
+    alone cannot replace this step.
+  </div>
+
+  <h3>What you need</h3>
+  <ul>
+    <li>An iPhone with a passcode enabled.</li>
+    <li>A Windows PC, Mac or supported Linux computer.</li>
+    <li>A USB cable that supports data transfer.</li>
+    <li>A free Apple Account.</li>
+    <li>Internet access.</li>
+  </ul>
+
+  <h3>Part 1 — Prepare your iPhone</h3>
+  <ol>
+    <li>
+      Open the App Store and install
+      <strong>LocalDevVPN</strong>.
+    </li>
+    <li>Open it once and allow the VPN configuration.</li>
+  </ol>
+
+  <h3>Part 2 — Prepare your computer</h3>
+
+  <h4>Windows</h4>
+  <ol>
+    <li>
+      Download and install iTunes from
+      <a href="https://www.apple.com/itunes/download/">
+        Apple's website
+      </a>.
+      Do not use the Microsoft Store version.
+    </li>
+    <li>Open iTunes once after installation.</li>
+    <li>
+      Download the Windows MSI installer from
+      <a href="https://iloader.app">the official iloader website</a>.
+    </li>
+    <li>Install and open iloader.</li>
+  </ol>
+
+  <h4>macOS</h4>
+  <ol>
+    <li>
+      Download the macOS DMG installer from
+      <a href="https://iloader.app">the official iloader website</a>.
+    </li>
+    <li>Open the DMG and install iloader.</li>
+    <li>No separate iTunes installation is needed.</li>
+  </ol>
+
+  <h4>Linux</h4>
+  <ol>
+    <li>Install usbmuxd.</li>
+    <li>
+      Follow the Linux-specific instructions on
+      <a href="https://iloader.app">the iloader website</a>.
+    </li>
+  </ol>
+
+  <h3>Part 3 — Install SideStore</h3>
+  <ol>
+    <li>Connect your iPhone to the computer using USB.</li>
+    <li>Unlock your iPhone and tap Trust if requested.</li>
+    <li>Open iloader.</li>
+    <li>Sign in using your Apple Account.</li>
+    <li>Select your iPhone.</li>
+    <li>Choose <strong>Install SideStore</strong>.</li>
+    <li>Wait until installation finishes.</li>
+    <li>You can unplug your iPhone after installation.</li>
+  </ol>
+
+  <h3>Part 4 — Trust and configure SideStore</h3>
+  <ol>
+    <li>
+      On your iPhone, open Settings → General →
+      VPN &amp; Device Management.
+    </li>
+    <li>
+      Select the developer profile associated with your
+      Apple Account and tap Trust if prompted.
+    </li>
+    <li>
+      If requested, enable Developer Mode under
+      Settings → Privacy &amp; Security → Developer Mode.
+      Your iPhone may restart.
+    </li>
+    <li>Open LocalDevVPN and connect.</li>
+    <li>Open SideStore and sign in using the same Apple Account.</li>
+  </ol>
+
+  <h3>Part 5 — Add Cura and install it</h3>
+  <ol>
+    <li>Open SideStore.</li>
+    <li>Go to Sources and tap +.</li>
+    <li>Add this source:</li>
+  </ol>
+
+  <p>
+    <code>https://andronikidimitriou.github.io/cura/sidestore.json</code>
+  </p>
+
+  <ol start="4">
+    <li>Find Cura in the source.</li>
+    <li>Tap Install.</li>
+    <li>Wait for installation to finish.</li>
+  </ol>
+
+  <h3>Keeping Cura working</h3>
+  <p>
+    Free Apple developer signing expires after 7 days.
+    Refresh your apps before they expire.
+  </p>
+
+  <ol>
+    <li>Connect your iPhone to Wi-Fi.</li>
+    <li>Open LocalDevVPN and connect.</li>
+    <li>Open SideStore.</li>
+    <li>Go to My Apps and tap Refresh All.</li>
+  </ol>
+
+  <p class="small">
+    The 7-day limit is Apple's free developer-signing
+    limitation, not a Cura subscription.
+  </p>
+
+  <p class="small">
+    For troubleshooting, consult the
+    <a href="https://docs.sidestore.io/">
+      official SideStore documentation
+    </a>.
+  </p>
+
+  <footer>
+    <strong>Cura</strong> — Medicine reminders and personal health.
+  </footer>
+
+</main>
+</body>
+</html>
+
