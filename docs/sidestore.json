@@ -13,6 +13,7 @@
       "localizedDescription": "Medicine reminders, lab results, documents and health history. Everything stays on your phone.",
       "iconURL": "https://andronikidimitriou.github.io/cura/icon.png",
       "tintColor": "1F7A6D",
+      "downloadURL": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.2-ios-public-20261122/Cura.ipa",
       "versions": [
         {
           "version": "2.2",
@@ -27,4 +28,3 @@
     }
   ]
 }
-
