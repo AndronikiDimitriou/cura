@@ -14,7 +14,7 @@ Visit the [Cura installation page](https://andronikidimitriou.github.io/cura/ins
 ### iOS
 [Download Cura for iOS (IPA)](https://github.com/AndronikiDimitriou/cura/releases/download/v2.2-ios-public-20261122/Cura.ipa)
 
-**Note:** iOS installation requires a compatible signing and installation method, such as SideStore.
+**Note:** iOS installation is free using AltStore and a Mac or Windows computer. Free installs must be refreshed every 7 days. See the [installation page](https://andronikidimitriou.github.io/cura/install.html) for step-by-step instructions.
 
 ## Privacy
 
