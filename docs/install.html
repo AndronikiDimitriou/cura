@@ -52,6 +52,8 @@
       font-weight: 650;
     }
     .download:hover { background: #1c593a; }
+    .download.alt { background: white; color: #26734c; border: 2px solid #26734c; }
+    .update { background: #f3faf5; border: 2px solid #cfe7d6; border-radius: 14px; padding: 18px 18px 6px; margin: 22px 0; }
     code {
       overflow-wrap: anywhere;
       background: #f0f2f0;
@@ -80,8 +82,26 @@
     Everything you enter stays on your own phone.
   </p>
 
+  <div class="update" id="update">
+    <h2 style="margin-top:0;padding-top:0;border-top:0">Already have Cura? Update it</h2>
+    <p>Newest version: <strong id="ver">…</strong> · Your data stays when you update.</p>
+
+    <h3>iPhone</h3>
+    <a class="download" id="alt-up" href="altstore://">🆕 Update Cura in AltStore</a>
+    <a class="download alt" id="side-up" href="sidestore://">Update in SideStore</a>
+    <p class="small">AltServer must be running on your computer, on the same Wi-Fi, like when you refresh.</p>
+    <p><strong>Updates by themselves from now on:</strong> add Cura to AltStore once, and new versions appear in
+      AltStore → My Apps → Updates.</p>
+    <a class="download alt" id="alt-src" href="altstore://source?url=https%3A%2F%2Fandronikidimitriou.github.io%2Fcura%2Fsidestore.json">➕ Add Cura to AltStore</a>
+    <p class="small">If AltStore says "already added", nothing more to do.</p>
+
+    <h3>Android</h3>
+    <a class="download" id="apk-up" href="https://github.com/AndronikiDimitriou/cura/releases/latest/download/Cura.apk">🆕 Download the new Cura.apk</a>
+    <p class="small">Open it and tap Update. It installs over the old one.</p>
+  </div>
+
   <div class="note">
-    Choose your device below to install Cura.
+    New to Cura? Choose your device below to install it.
   </div>
 
   <!-- ANDROID -->
@@ -90,7 +110,7 @@
   <p><strong>No computer needed. No 7-day expiry.</strong></p>
 
   <a class="download"
-     href="https://github.com/AndronikiDimitriou/cura/releases/download/v2.2-public-20261122/Cura.apk">
+     id="apk" href="https://github.com/AndronikiDimitriou/cura/releases/latest/download/Cura.apk">
     Download Cura.apk
   </a>
 
@@ -121,7 +141,7 @@
   </p>
 
   <a class="download"
-     href="https://github.com/AndronikiDimitriou/cura/releases/download/v2.2-ios-public-20261122/Cura.ipa">
+     id="ipa" href="https://github.com/AndronikiDimitriou/cura/releases/latest/download/Cura.ipa">
     Download Cura.ipa
   </a>
 
@@ -234,5 +254,18 @@
   </footer>
 
 </main>
+<script>
+  // the newest version and its files, from version.json (the same file Cura checks once a day)
+  fetch('version.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (v) {
+    if (v.version) document.getElementById('ver').textContent = v.version;
+    if (v.apk) { document.getElementById('apk').href = v.apk; document.getElementById('apk-up').href = v.apk; }
+    if (v.ipa) {
+      document.getElementById('ipa').href = v.ipa;
+      var u = encodeURIComponent(v.ipa);
+      document.getElementById('alt-up').href = 'altstore://install?url=' + u;
+      document.getElementById('side-up').href = 'sidestore://install?url=' + u;
+    }
+  }).catch(function () { document.getElementById('ver').textContent = '(see below)'; });
+</script>
 </body>
 </html>
