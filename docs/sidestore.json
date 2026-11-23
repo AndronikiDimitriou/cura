@@ -15,10 +15,10 @@
       "versions": [
         {
           "version": "2.4",
-          "buildVersion": "202611232314",
-          "date": "2026-11-23T22:17:04.394Z",
-          "downloadURL": "https://gh.ali360.cloudns.ch/AndronikiDimitriou/cura/releases/download/v2.4-20261123-2316/Cura.ipa",
-          "size": 35936016,
+          "buildVersion": "202611232343",
+          "date": "2026-11-23T22:46:53.767Z",
+          "downloadURL": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.4-20261123-2346/Cura.ipa",
+          "size": 35936018,
           "localizedDescription": "Cura 2.4"
         }
       ]

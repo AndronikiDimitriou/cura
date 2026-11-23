@@ -1,12 +1,12 @@
 {
   "version": "2.4",
   "page": "https://andronikidimitriou.github.io/cura/install.html",
-  "android": "2026-11-23 23:10",
-  "apk": "https://gh.ali360.cloudns.ch/AndronikiDimitriou/cura/releases/download/v2.4-20261123-2316/Cura.apk",
-  "ios": "2026-11-23 23:14",
-  "ipa": "https://gh.ali360.cloudns.ch/AndronikiDimitriou/cura/releases/download/v2.4-20261123-2316/Cura.ipa",
+  "android": "2026-11-23 23:40",
+  "apk": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.4-20261123-2346/Cura.apk",
+  "ios": "2026-11-23 23:43",
+  "ipa": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.4-20261123-2346/Cura.ipa",
   "iosVersion": "2.4",
-  "iosBuild": "202611232314",
-  "iosSize": 35936016,
-  "iosDate": "2026-11-23T22:17:04.394Z"
+  "iosBuild": "202611232343",
+  "iosSize": 35936018,
+  "iosDate": "2026-11-23T22:46:53.767Z"
 }
