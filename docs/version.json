@@ -1,12 +1,12 @@
 {
-  "version": "2.28",
+  "version": "2.29",
   "page": "https://andronikidimitriou.github.io/cura/install.html",
-  "android": "2026-11-25 21:26",
-  "apk": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.28-20261125-2137/Cura.apk",
-  "ios": "2026-11-25 21:34",
-  "ipa": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.28-20261125-2137/Cura.ipa",
-  "iosVersion": "2.28",
-  "iosBuild": "202611252134",
-  "iosSize": 35961407,
-  "iosDate": "2026-11-25T20:38:16.696Z"
+  "android": "2026-11-25 22:07",
+  "apk": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.29-20261125-2217/Cura.apk",
+  "ios": "2026-11-25 22:14",
+  "ipa": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.29-20261125-2217/Cura.ipa",
+  "iosVersion": "2.29",
+  "iosBuild": "202611252214",
+  "iosSize": 35960510,
+  "iosDate": "2026-11-25T21:18:17.924Z"
 }
