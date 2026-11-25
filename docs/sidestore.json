@@ -14,12 +14,12 @@
       "tintColor": "1F7A6D",
       "versions": [
         {
-          "version": "2.18",
-          "buildVersion": "202611251240",
-          "date": "2026-11-25T11:43:36.625Z",
-          "downloadURL": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.18-20261125-1243/Cura.ipa",
-          "size": 35946627,
-          "localizedDescription": "Cura 2.18"
+          "version": "2.19",
+          "buildVersion": "202611251443",
+          "date": "2026-11-25T13:46:39.704Z",
+          "downloadURL": "https://github.com/AndronikiDimitriou/cura/releases/download/v2.19-20261125-1446/Cura.ipa",
+          "size": 35947234,
+          "localizedDescription": "Cura 2.19"
         }
       ]
     }
